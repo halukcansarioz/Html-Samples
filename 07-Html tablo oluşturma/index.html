@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tablo oluşturma</title>
+
+	<style>
+		table,th,td
+		{
+			border: 1px solid red;
+		}
+		th,td
+		{
+			padding: 15px;
+		}
+		th
+		{
+			text-align: left;
+		}
+		table
+		{
+			border-spacing: 15px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<table style="width: 100%">
+		<tr>
+			<th>Ad</th>
+			<th>Soyad</th>
+			<th>Yaş</th>
+		</tr>
+		<tr>
+			<td>Haluk Can</td>
+			<td>Sarıöz</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			<td>Oğulcan</td>
+			<td>Sarıöz</td>
+			<td>20</td>
+		</tr>
+	</table>
+
+	<table style="width: 100%">
+		<tr>
+			<th>Ad</th>
+			<th>Soyad</th>
+			<th>Yaş</th>
+		</tr>
+		<tr>
+			<td>Haluk Can</td>
+			<td colspan="2">Sarıöz</td>
+			
+		</tr>
+		<tr>
+			<td>Oğulcan</td>
+			<td>Sarıöz</td>
+			<td>20</td>
+		</tr>
+	</table>
+
+	<table style="width: 100%">
+		<tr>
+			<th>Ad</th>
+			<th>Soyad</th>
+			<th>Yaş</th>
+		</tr>
+		<tr>
+			<td rowspan="2">Haluk Can</td>
+			<td>Sarıöz</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			
+			<td>Sarıöz</td>
+			<td>20</td>
+		</tr>
+	</table>
+
+	<br><br>
+	<table style="width: 100%">
+		<caption>Öğrenci Listesi</caption>
+		<tr>
+			<th>Ad</th>
+			<th>Soyad</th>
+			<th>Yaş</th>
+		</tr>
+		<tr>
+			<td>Haluk Can</td>
+			<td>Sarıöz</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			<td>Oğulcan</td>
+			<td>Sarıöz</td>
+			<td>20</td>
+		</tr>
+	</table>
+
+
+</body>
+</html>
