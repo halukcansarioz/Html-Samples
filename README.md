@@ -1,61 +1,82 @@
-# 📝 HTML Samples & Structures
+# 🚀 HTML Samples (HTML Örnekleri)
 
-Welcome to the **HTML Samples** repository! This project is a curated collection of fundamental HTML5 structures, boilerplate templates, forms, and semantic elements. It serves as a personal reference guide and a foundational playground for web development.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](#)
 
-## 👨🏼‍💻 About the Developer & Motivation
+Bu depo, temel seviyeden ileri düzeye kadar çeşitli HTML (HyperText Markup Language) örneklerini, yapı taşlarını ve web sayfası şablonlarını içermektedir.
 
-I have been trying to improve myself since I graduated from Ankara University Computer Engineering. For this, I attend courses from online platforms. I have about 6 months of experience on Ruby on Rails as a Full Stack Developer. I am currently trying to improve myself in Front-end and Back-end. The courses I take are on these topics and I develop projects on my own. This repository is a practical collection of my early front-end experiments and HTML learning journey!
-
-## ✨ What's Inside?
-
-This repository contains various independent folders/files, each demonstrating a different core HTML concept:
-
-*   **Semantic HTML:** Proper usage of `<header>`, `<article>`, `<section>`, and `<footer>` tags for accessibility and SEO.
-*   **Forms & Inputs:** Examples of user data collection, validation types, and various input fields.
-*   **Tables & Lists:** Structured data presentation using complex tables and nested lists.
-*   **Media Elements:** Embedding images, audio, and video files directly into web pages.
-
-## 🛠️ Tech Stack
-
-*   **Markup:** HTML5
-*   **Version Control:** Git & GitHub
-
-## 🚀 Getting Started
-
-Since this repository consists purely of raw HTML files, you do not need any local server, build tools, or dependencies to view the samples.
-
-### Installation & Viewing
-
-1.  **Clone the repository:**
-    
-    ```bash
-    git clone https://github.com/halukcansarioz/Html-Samples.git
-    ```
-
-2.  **Navigate to the project directory:**
-
-    ```bash
-    cd Html-Samples
-    ```
-
-3.  **Explore the Samples:**
-    Browse through the folders. To see a specific HTML structure, simply double-click its `.html` file (e.g., `index.html`) to open it directly in your default web browser (Chrome, Firefox, Safari, etc.).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! 
-Feel free to check the [issues page](https://github.com/halukcansarioz/Html-Samples/issues) if you want to suggest a new structural example or improve an existing one.
-
-## 📜 License
-
-This project is open-source and available under the MIT License - see the LICENSE file for details.
-
-## 📫 Contact
-
-**Haluk Can Sarıöz**
-*   **GitHub:** [@HalukCanSarioz](https://github.com/HalukCanSarioz)
-*   **Email:** halukcansarioz19@gmail.com
-*   **LinkedIn:** [Haluk Can Sarıöz](https://www.linkedin.com/in/halukcansarioz)
+## 📚 İçindekiler
+- [Proje Hakkında](#proje-hakkında)
+- [Örnek İçerikleri](#örnek-içerikleri)
+- [Geliştirme Süreci](#geliştirme-süreci)
+- [Kurulum ve Kullanım](#kurulum-ve-kullanım)
+- [Katkıda Bulunma](#katkıda-bulunma)
+- [Lisans](#lisans)
 
 ---
-*If you find these HTML snippets helpful for understanding the basics of web structure, please consider giving the repository a ⭐!*
+
+## 💻 Proje Hakkında
+Bu proje, web geliştirmenin temeli olan HTML etiketlerinin kullanımını, sayfa iskeletinin nasıl oluşturulduğunu ve semantik web standartlarını uygulamalı olarak göstermek amacıyla hazırlanmıştır. 
+
+## 🗂 Örnek İçerikleri
+Bu depodaki çalışmalar genel olarak aşağıdaki konuları kapsamaktadır:
+* **Temel Etiketler:** Başlıklar (Headings), Paragraflar ve Metin Biçimlendirme
+* **Bağlantılar ve Medya:** `<a>`, `<img>`, `<video>` ve `<audio>` kullanımları
+* **Listeler:** Sıralı (Ordered) ve Sırasız (Unordered) listeler
+* **Tablolar (Tables):** Satır, sütun, başlık ve hücre birleştirme yapıları
+* **Formlar (Forms):** Kullanıcıdan veri alma, input türleri, butonlar ve validasyonlar
+* **Semantik HTML5:** `header`, `nav`, `section`, `article`, `aside` ve `footer` gibi anlamlı yapıların kullanımı
+
+---
+
+## 🛠 Geliştirme Süreci
+
+Projeye yeni bir HTML örneği eklerken veya mevcut kodları güncellerken aşağıdaki adımları takip edebilirsiniz:
+
+### 1. Forklama
+Öncelikle depoyu kendi GitHub hesabınıza fork'layın.
+
+### 2. Yeni Dal (Branch) Oluşturma
+Her yeni çalışma veya düzeltme için yeni bir dal oluşturmak düzeni korur. Terminalde şu komutu kullanın:
+
+```bash
+git checkout -b ozellik/yeni-html-ornegi
+```
+
+### 3. Kodları Gönderme (Push)
+Değişikliklerinizi yaptıktan ve commit'ledikten sonra, hazırladığınız dalı GitHub'a göndermek için:
+
+```bash
+git push origin ozellik/yeni-html-ornegi
+```
+
+---
+
+## 💻 Kurulum ve Kullanım
+
+1. Depoyu klonlayın:
+
+```bash
+git clone https://github.com/halukcansarioz/Html-Samples.git
+```
+
+2. Proje dizinine gidin:
+
+```bash
+cd Html-Samples
+```
+
+---
+
+## 🤝 Katkıda Bulunma
+
+1. Bu depoyu Fork'layın.
+2. **Branch oluşturun** (`git checkout -b feature/form-tasarimi`).
+3. Değişikliklerinizi yapın ve commit edin.
+4. **Kodlarınızı Push'layın** (`git push origin feature/form-tasarimi`).
+5. Bir Pull Request açın.
+
+---
+
+## 📜 Lisans
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Dilediğiniz gibi inceleyebilir ve çalışmalarınızda faydalanabilirsiniz.
